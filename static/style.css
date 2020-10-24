@@ -1,0 +1,48 @@
+.form-control{
+  justify-self: center;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+#check{
+  margin-right: 15px;
+}
+
+h2{
+  text-align: center;
+}
+
+.alert{
+  text-align: center;
+}
+
+.radio label {
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 0px;
+  padding: 0px 10px;
+  display: inline-block;
+  cursor: pointer;
+   
+}
+
+#ma {
+  border-radius: 5px;
+  border-width: 0px;
+  border-style: solid;
+  margin-bottom: 2px;
+  padding: 0px 0px;
+  display: inline-block;
+  background-color: lightblue;
+  width: 4rem;
+}
+
+
+.no-bottom{
+  margin-bottom: 0rem;
+}
+
+#root {
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+{{template "header"}}
+
+<div class="container">
+    <h2 class = "col-sm-5"><a href=""><i class="fa fa-music"></i></a> Interval Test <a href=""><i class="fa fa-music"></i></a></h2> 
+    <br>   
+  
+      <form method="post" >
+        <input type = "text" name="correct" value ={{.Correct}} hidden>
+        <div class="form-group row">
+          <label for="id" class="col-sm-2 col-form-label">Root</label>
+          <div class="col-sm-3">
+            <input type="text" readonly class="form-control" id="root" name="root" value={{.Root}}>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="Interval" class="col-sm-2 col-form-label">Interval</label>
+          <div class="col-sm-3">
+            <input type="text" readonly class="form-control" id="interval" name="Interval" value={{.Interval}}>
+          </div>
+        </div>
+        <div class="form-group row col-sm-5 no-bottom">
+          <label>Your Answer</label>
+        </div>
+        <div class="radio form-control col-sm-5">
+         {{range .AnswerKey}}
+          <button class="btn" id = "ma">
+            <label for = "{{.}}">
+              <input id = "{{.}}" type = "radio" name = "userAnswer" value = "{{.}}" hidden> {{.}}
+            </label>
+          </button>  
+        {{end}}
+        </div>
+        </div>
+      </form>
+  </div>
+
+  <!-- NEW SECTION******************************************* -->
+
+<div class="container"><br>
+  <!-- <?php
+  if($correctAnswer === $userAnswer){
+    $_SESSION['wins']+=1
+  ?> -->
+  {{if and .UserAnswer .Success}}
+    <div class="alert alert-success col-sm-5" role = "alert">
+    {{.Message}}
+    </div>
+  {{else if .UserAnswer}}
+    <div class="alert alert-danger col-sm-5" role = "alert">
+    {{.Message}}
+   </div>
+  {{end}} 
+  
+  {{if .UserAnswer}}
+  <P>
+    Correct:
+    <br>
+    Losses:
+  </P>   
+  <form method="POST">
+    <input type = "submit" name="clearScore" value = "Clear Score" class="btn btn-secondary"></input>
+  </form>
+ </div>
+ {{end}}
+ {{template "footer"}}
