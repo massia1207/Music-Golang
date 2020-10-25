@@ -94,7 +94,7 @@ func index(w http.ResponseWriter, r *http.Request){
 		g.Success = false
 	}
 
-	err = tpl.ExecuteTemplate(w, "index.html", g)
+	err = tpl.ExecuteTemplate(w, "index.gohtml", g)
 	if err != nil {
 		http.Error(w, err.Error(),500)
 		log.Fatalln(err)

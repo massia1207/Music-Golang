@@ -24,8 +24,8 @@
         <div class="radio form-control col-sm-5">
          {{range .AnswerKey}}
           <button class="btn" id = "ma">
-            <label for = "userAnswer">
-              <input id = "userAnswer" type = "radio" name = "userAnswer" value = "{{.}}" hidden> {{.}}
+            <label for = {{.}}>
+              <input id = {{.}} type="radio" name = "userAnswer" value = "{{.}}" hidden> {{.}}
             </label>
           </button>  
         {{end}}
