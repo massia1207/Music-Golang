@@ -5,7 +5,7 @@
     <br>   
   
       <form method="post" >
-        <input type = "text" name="correct" value ={{.Correct}} hidden>
+        <input type = "text" id = "correct" name="correct" value ={{.Correct}} hidden>
         <div class="form-group row">
           <label for="id" class="col-sm-2 col-form-label">Root</label>
           <div class="col-sm-3">
@@ -24,8 +24,8 @@
         <div class="radio form-control col-sm-5">
          {{range .AnswerKey}}
           <button class="btn" id = "ma">
-            <label for = "{{.}}">
-              <input id = "{{.}}" type = "radio" name = "userAnswer" value = "{{.}}" hidden> {{.}}
+            <label for = "userAnswer">
+              <input id = "userAnswer" type = "radio" name = "userAnswer" value = "{{.}}" hidden> {{.}}
             </label>
           </button>  
         {{end}}
@@ -42,23 +42,24 @@
     $_SESSION['wins']+=1
   ?> -->
   {{if and .UserAnswer .Success}}
-    <div class="alert alert-success col-sm-5" role = "alert">
+    <div class="alert alert-success col-sm-5" id = "wins" role = "alert">
     {{.Message}}
     </div>
   {{else if .UserAnswer}}
-    <div class="alert alert-danger col-sm-5" role = "alert">
+    <div class="alert alert-danger col-sm-5" id = "losses"role = "alert">
     {{.Message}}
    </div>
   {{end}} 
   
   {{if .UserAnswer}}
   <P>
-    Correct:
+    Wins:
     <br>
     Losses:
   </P>   
-  <form method="POST">
-    <input type = "submit" name="clearScore" value = "Clear Score" class="btn btn-secondary"></input>
+  <!-- <form method="POST"> -->
+    <form>
+    <input type = "submit"  id = "clear" name="clearScore" value = "Clear Score" class="btn btn-secondary"></input>
   </form>
  </div>
  {{end}}
