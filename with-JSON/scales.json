@@ -1,0 +1,19 @@
+[
+	{"Root":"C","Half":"Db","Whole":"D","Minor 3rd":"Eb","Major 3rd":"E","Fourth":"F","Tritone":"Gb","Fifth":"G","Minor 6th":"Ab","Major 6th":"A","Minor 7th":"Bb","Major 7th":"B","Octave":"C"},
+	{"Root":"Db","Half":"D","Whole":"Eb","Minor 3rd":"E","Major 3rd":"F","Fourth":"Gb","Tritone":"G","Fifth":"Ab","Minor 6th":"A","Major 6th":"Bb","Minor 7th":"B","Major 7th":"C","Octave":"Db"},
+	{"Root":"D","Half":"D#","Whole":"E","Minor 3rd":"F","Major 3rd":"F#","Fourth":"G","Tritone":"G#","Fifth":"A","Minor 6th":"A#","Major 6th":"B","Minor 7th":"C","Major 7th":"C#","Octave":"D"},
+	{"Root":"Eb","Half":"E","Whole":"F","Minor 3rd":"Gb","Major 3rd":"G","Fourth":"Ab","Tritone":"A","Fifth":"Bb","Minor 6th":"B","Major 6th":"C","Minor 7th":"Db","Major 7th":"D","Octave":"Eb"},
+	{"Root":"E","Half":"F","Whole":"F#","Minor 3rd":"G","Major 3rd":"G#","Fourth":"A","Tritone":"A#","Fifth":"B","Minor 6th":"C","Major 6th":"C#","Minor 7th":"D","Major 7th":"D#","Octave":"E"},
+	{"Root":"F","Half":"Gb","Whole":"G","Minor 3rd":"Ab","Major 3rd":"A","Fourth":"Bb","Tritone":"B","Fifth":"C","Minor 6th":"Db","Major 6th":"D","Minor 7th":"Eb","Major 7th":"E","Octave":"F "},
+	{"Root":"Gb","Half":"G","Whole":"Ab","Minor 3rd":"A","Major 3rd":"Bb","Fourth":"B","Tritone":"C","Fifth":"Db","Minor 6th":"D","Major 6th":"Eb","Minor 7th":"E","Major 7th":"F ","Octave":"Gb"},
+	{"Root":"G","Half":"G#","Whole":"A","Minor 3rd":"A#","Major 3rd":"B","Fourth":"C","Tritone":"C#","Fifth":"D","Minor 6th":"D#","Major 6th":"E","Minor 7th":"F ","Major 7th":"F#","Octave":"G"},
+	{"Root":"Ab","Half":"A","Whole":"Bb","Minor 3rd":"B","Major 3rd":"C","Fourth":"Db","Tritone":"D","Fifth":"Eb","Minor 6th":"E","Major 6th":"F ","Minor 7th":"Gb","Major 7th":"G","Octave":"Ab"},
+	{"Root":"A","Half":"A#","Whole":"B","Minor 3rd":"C","Major 3rd":"C#","Fourth":"D","Tritone":"D#","Fifth":"E","Minor 6th":"F ","Major 6th":"F#","Minor 7th":"G","Major 7th":"G#","Octave":"A"},
+	{"Root":"Bb","Half":"B","Whole":"C","Minor 3rd":"Db","Major 3rd":"D","Fourth":"Eb","Tritone":"E","Fifth":"F ","Minor 6th":"Gb","Major 6th":"G","Minor 7th":"Ab","Major 7th":"A","Octave":"Bb"},
+	{"Root":"B","Half":"C","Whole":"C#","Minor 3rd":"D","Major 3rd":"D#","Fourth":"E","Tritone":"F ","Fifth":"F#","Minor 6th":"G","Major 6th":"G#","Minor 7th":"A","Major 7th":"A#","Octave":"B"},
+	{"Root":"C#","Half":"D","Whole":"D#","Minor 3rd":"E","Major 3rd":"F","Fourth":"F#","Tritone":"G","Fifth":"G#","Minor 6th":"A","Major 6th":"A#","Minor 7th":"B","Major 7th":"C","Octave":"C#"},
+	{"Root":"D#","Half":"E","Whole":"F","Minor 3rd":"F#","Major 3rd":"G","Fourth":"G#","Tritone":"A","Fifth":"A#","Minor 6th":"B","Major 6th":"C","Minor 7th":"C#","Major 7th":"D","Octave":"D#"},
+	{"Root":"F#","Half":"G","Whole":"G#","Minor 3rd":"A","Major 3rd":"A#","Fourth":"B","Tritone":"C","Fifth":"C#","Minor 6th":"D","Major 6th":"D#","Minor 7th":"E","Major 7th":"F","Octave":"F#"},
+	{"Root":"G#","Half":"A","Whole":"A#","Minor 3rd":"B","Major 3rd":"C","Fourth":"C#","Tritone":"D","Fifth":"D#","Minor 6th":"E","Major 6th":"F","Minor 7th":"F#","Major 7th":"G","Octave":"G#"},
+	{"Root":"A#","Half":"B","Whole":"C","Minor 3rd":"C#","Major 3rd":"D","Fourth":"D#","Tritone":"E","Fifth":"F","Minor 6th":"F#","Major 6th":"G","Minor 7th":"G#","Major 7th":"A","Octave":"A#"}
+	]
