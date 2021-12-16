@@ -13,7 +13,7 @@ import (
 	"html/template"
 	"math/rand"
 	// "github.com/satori/go.uuid"
-	_ "github.com/go-sql-driver/mysql"
+	//_ "github.com/go-sql-driver/mysql"
 )
 type game struct {
 	Root string
